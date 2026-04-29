@@ -18,7 +18,7 @@ export default function LoginPage() {
       const payload = isRegister ? { name, email, password } : { email, password };
       const { data } = await api.post(path, payload);
       localStorage.setItem('token', data.token);
-      navigate('/dashboard');
+      navigate('/');
     } catch (err) {
       setError(err.response?.data?.message || 'Authentication failed');
     }
