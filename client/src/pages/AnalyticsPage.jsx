@@ -16,7 +16,7 @@ export default function AnalyticsPage() {
     <div className="max-w-5xl mx-auto p-4">
       <div className="flex justify-between mb-6">
         <h1 className="text-2xl font-bold">Spending Analytics</h1>
-        <Link to="/" className="bg-slate-700 text-white px-3 py-2 rounded">Back</Link>
+        <Link to="/dashboard" className="bg-slate-700 text-white px-3 py-2 rounded">Back</Link>
       </div>
       <div className="bg-white rounded shadow p-4 h-96">
         <ResponsiveContainer width="100%" height="100%">
